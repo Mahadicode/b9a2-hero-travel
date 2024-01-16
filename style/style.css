@@ -31,6 +31,31 @@ font-size: 2.25rem;
 font-weight: 800;
 }
 /* mixed style finish here  */
+/* nav related style start from here  */
+nav{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-heading{
+  display: flex;
+  justify-content: start;
+}
+nav h4 {
+  color: #131318;
+font-size: 36px;
+font-weight: 800;
+}
+nav .nav-link ul{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+nav .nav-link ul .important1{
+  color: #FF5400;
+}
 
 /* banner related style start from here  */
 .banner-container{
@@ -273,10 +298,37 @@ border: none;
 }
 .discount .discount-img{
   width: 45%;
+  position: relative;
 }
 .discount .discount-img img{
   width: 100%;
   object-fit: cover;
+}
+.discount-img .save-up{
+  max-width: 16rem;
+  padding: 1rem;
+  text-align: center;
+border-radius: 16px;
+background: #FF5400;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: 60px;
+left: 50%;
+rotate: -30deg;
+}
+.discount-img .save-up h3{
+  color: #FFF;
+font-size: 2rem;
+font-weight: 800;
+}
+.discount-img .save-up p{
+  color: #FFF;
+text-align: center;
+font-size: 1.5rem;
+font-weight: 400;
 }
 /* discount section style finished  */
 /* footer related style start from here  */
