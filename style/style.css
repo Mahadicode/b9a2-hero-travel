@@ -269,6 +269,37 @@ font-weight: 800;
   display: flex;
 justify-content: space-between;
 }
+/* video section related start from here  */
+.video-section{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.video-section .video-text{
+  width: 50%;
+  max-width: 30rem;
+}
+.video-section .video-content{
+  width: 50%;
+}
+.video-section .video-content  iframe{
+width: 100%;
+}
+.video-section .video-text ul{
+  margin-top: 1rem;
+padding-left: 3rem;
+}
+.video-section .video-text ul li{
+  color: #131318;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px; 
+margin-bottom: 1rem;
+
+}
+/* video section related finished here  */
 /* discount style related start from here  */
 .discount{
   margin-top: 3rem;
