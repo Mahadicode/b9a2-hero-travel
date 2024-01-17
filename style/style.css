@@ -59,6 +59,7 @@ nav .nav-link ul .important1{
 
 /* banner related style start from here  */
 .banner-container{
+  border: 5px solid red;
   width: 100%;
 padding-top: 7rem;
 padding-bottom: 7rem;
@@ -66,8 +67,8 @@ padding-bottom: 7rem;
   /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
   background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
   background-repeat: no-repeat;
-  background-size: 100%;
-  /* object-fit: cover; */
+  background-size: 100% 100%;
+  object-fit: cover;
   border-radius: 16px;
 }
 .banner-container h1{
@@ -88,6 +89,7 @@ margin-bottom: 1.5rem;
   max-width: 70%;
 background: rgba(255, 255, 255, 0.30);
 background-repeat: no-repeat;
+background-size: 100% 100%;
 /* object-fit: cover; */
 height: 5rem;
 
@@ -175,6 +177,16 @@ padding-left: 2rem;
 }
 /* popular destination section style finished here  */
 /* card section style start from here  */
+.card1{
+  padding: 1.5rem;
+}
+.card2{
+  padding: 1.5rem;
+}
+.card3{
+  padding: 1.5rem;
+}
+
 .card .card-heading h3{
   text-align: center;
   margin-top: 2rem;
